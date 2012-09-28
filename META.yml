@@ -22,12 +22,13 @@ no_index:
 provides:
   Gearman::Glutch:
     file: lib/Gearman/Glutch.pm
-    version: 0.01
+    version: 0.02
 requires:
+  Class::Accessor::Fast: 0
   Gearman::Server: 0
   Gearman::Worker: 0
   parent: 0
   perl: 5.010001
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02

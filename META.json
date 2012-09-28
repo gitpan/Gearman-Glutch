@@ -34,6 +34,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Class::Accessor::Fast" : "0",
             "Gearman::Server" : "0",
             "Gearman::Worker" : "0",
             "parent" : "0",
@@ -44,7 +45,7 @@
    "provides" : {
       "Gearman::Glutch" : {
          "file" : "lib/Gearman/Glutch.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -53,5 +54,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
